@@ -1,52 +1,36 @@
-// console.log("hello world");
-// console.log("test");
-// console.log("1.ders typescript");
+let firstNames:string[] = ['Nahid', 'Vahid', 'Zahid']
 
-// let age: number = 35;
-// let firstName: string = "Nahid";
-// // firstName = 35 // yanlis assign
+// let firstNames:Array<string>= ["Nahid", "Vahid", "Zahid"];
 
-// let isUpdated: boolean = true;
+console.log(firstNames);
 
-// function display(id:any, name:string) {
-//     console.log(" id = " + id + ", Name = " + name);
+//tipini yazmadan da array yazmaq mumkundur 
 
-// // }
+let arr = [1,2,'Nahid', true , null, undefined]
 
-// let first: number = 123; //number
-
-// let second: number = 0x37cf; // hexadecimal
-
-// let third: number = 0o377; //octal
-
-// let fourth: number = 0b111001; // binary
-
-// console.log(first); // 123
-// console.log(second); //14287
-// console.log(third); //255
-// console.log(fourth); //57
-
-// let employeefirstName: string = 'Nahid Zerbiyev';
-// console.log(employeefirstName);
-
-// // let employeefirstName: string = "Nahid Zerbiyev";
+console.log(arr);
 
 
-// let employeeName: string = 'nahid'
-// let employeeDept: string = 'finance'
+let names:Array<string>;
 
-// //pre ES6
+names = ['Nahid','Zahid', 'Vahid']
 
-// let employeeDesc1: string = employeeName + " works in the " + employeeDept + " department."
+console.log(names);
 
-// console.log(employeeDesc1);
-
-// //post ES6
-
-// let employeeDesc2:string = `${employeeName} works in the ${employeeDept} department`
-
-// console.log(employeeDesc2);
+let ids: Array<number>;
+ids = [2,34,45,55]
+console.log(ids);
 
 
-let isPresent: boolean = true
-console.log(isPresent);
+// let values: (string| number)[] = ['apple', 12, 'Purple', 34]
+let values:Array <string| number>= ['apple', 12, 'Purple', 34]
+
+console.log(values);
+
+console.log(names[1]);
+
+for (let i = 0; i < names.length; i++) {
+    const element = names[i];
+    console.log(element);
+    
+}
