@@ -1,36 +1,18 @@
-let firstNames:string[] = ['Nahid', 'Vahid', 'Zahid']
+let Id: number = 1;
+let instructorName: string = "nahid";
 
-// let firstNames:Array<string>= ["Nahid", "Vahid", "Zahid"];
+let instructor: [number, string] = [1, "nahid"];
 
-console.log(firstNames);
+let user: [number, string, boolean, number, string];
 
-//tipini yazmadan da array yazmaq mumkundur 
+user = [1, "joe", true, 20, "joe"];
+console.log(user);
 
-let arr = [1,2,'Nahid', true , null, undefined]
+console.log(instructor);
 
-console.log(arr);
+let employee: [number, string][];
 
+employee = [[1,'joe'],[2,'front'], [3,'back']]
 
-let names:Array<string>;
+console.log(employee);
 
-names = ['Nahid','Zahid', 'Vahid']
-
-console.log(names);
-
-let ids: Array<number>;
-ids = [2,34,45,55]
-console.log(ids);
-
-
-// let values: (string| number)[] = ['apple', 12, 'Purple', 34]
-let values:Array <string| number>= ['apple', 12, 'Purple', 34]
-
-console.log(values);
-
-console.log(names[1]);
-
-for (let i = 0; i < names.length; i++) {
-    const element = names[i];
-    console.log(element);
-    
-}
